@@ -1,4 +1,4 @@
-outlierKD <- function(var) {
+outlierOmar <- function(var) {
      var_name = var
      na1 <- sum(is.na(var_name))
      m1 <- mean(var_name, na.rm = T)
